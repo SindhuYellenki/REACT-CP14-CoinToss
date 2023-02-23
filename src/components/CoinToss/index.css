@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+.bg-container {
+  background-color: goldenrod;
+  padding: 80px;
+  height: 100vh;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+}
+.heading {
+  color: brown;
+  text-align: center;
+}
+.para {
+  text-align: center;
+}
+.image {
+  height: 80px;
+  width: 80px;
+}
+.countContainer {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.list {
+  margin: 10px;
+}
